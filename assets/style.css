@@ -1,0 +1,234 @@
+body {
+    background-color: #FCF5F8;
+}
+
+.Sidebar {
+    background-color: #9A4C95;
+    font-size: 36pt;
+    font-family: 'Poppins','Darker Grotesque', sans-serif;;
+    color: #FCF5F8;
+    font-weight: 300;
+    margin-top:-15px;
+    margin-left: -15px;
+    margin-right: -290px;
+    padding: 20px;
+    height: 10%;
+}
+
+.menu-options {
+    font-size: 16pt;
+    font-family: 'Poppins','Helvetica','Cutive Mono';
+    color: #FCF5F8;
+    font-weight: 400;
+    background-color: #4D2D52;
+    opacity: 90%;
+    list-style: none;
+    position: fixed;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 10%;
+    height: 100%; 
+    margin-top:-110px;
+    padding-top: 110px;
+    padding-left: 0px;
+    justify-content: space-around;
+    text-align: center;
+    float: right;
+}
+
+a:link, a:visited, a:hover, a:active { 
+    color: #FCF5F8;
+    text-decoration: none;
+}
+
+.script {
+    font-family: 'Anonymous Pro','Cutive Mono', 'Courier New', Courier, monospace;
+    font-size: 18pt;
+    text-align: center;
+    color: #121112;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 29%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
+
+.home-photos {
+    display: flex;
+    flex-direction: row;
+  max-height: auto;
+  align-items: stretch;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 90%;
+}
+
+.menu-options-social-media {
+    padding: 0px;
+    list-style: none;
+    width: 100%;
+    flex-direction: column;
+}
+
+#LinkedIn {
+    margin-bottom: 70px;
+}
+
+#Instagram {
+    margin-bottom: 20px;
+}
+
+#script-dialogue-film {
+    font-family: 'Poppins';
+    color: #9A4C95;
+    font-size: 15pt;
+}
+  
+@keyframes hover {
+    0% { font-size: 16pt; font-weight: 300; text-decoration: none; }
+    50% { font-size: 18pt;}
+    100% { font-size: 20pt; font-weight: 400; text-decoration: underline; }
+}
+
+.menu-options div:hover {
+    animation-name: hover;
+    animation-duration: 0.15s;
+    animation-delay: 0;
+    animation-direction: normal;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes hoversidebar {
+    0% { font-weight: 300; }
+    100% { font-weight: 400;}
+}
+
+.Sidebar div:hover {
+    animation-name: hoversidebar;
+    animation-duration: 0.1s;
+    animation-delay: 0;
+    animation-direction: normal;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+
+}
+
+
+/* MYSTORY */
+
+#mypicture {
+border-radius: 50%;
+padding: 5%;
+}
+
+#myinfo {
+    font-family: Poppins, Anonymous Pro;
+    color: #4D2D52;
+    display: grid;
+    align-items: center;
+    margin-right: 50%;
+    padding-right: 30%;
+    text-align: justify;
+    font-size: 14pt;
+}
+
+.mypicture-info {
+    display: flex;
+    align-items: center;
+}
+
+/* PHOTOS */
+
+#myphotos-each {
+    width: 33%;
+    float: left;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    margin-top: 1.5%;    
+    margin-bottom: 1.5%;
+}
+
+
+.all-my-photos {
+    display: flex;
+    flex-direction: column;
+   justify-content: space-around;
+    display: table;
+    justify-content: center;
+    width: 90%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 1.5%;
+
+}
+
+.finalnote {
+    font-family: Poppins;
+    font-size: 11pt;
+    color: #4D2D52;
+    position: absolute;
+    left: 50%;
+    bottom:0;
+    transform: translate(-50%, -50%);
+    padding-bottom: 1%;
+}
+
+.loader-container {
+    height: 40px;
+    width: 40px;
+    border: 5px solid #9A4C95;
+    border-radius: 50%;
+    border-top-color: #cfa8e9;
+    animation: spin 1s linear infinite;
+    z-index: 100;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+
+@keyframes spin {
+    100% { transform: rotate(360deg);}
+}
+
+/*POETRY*/
+
+.poems {
+    font-family: Poppins;
+    font-size: 14pt;
+    float: left;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 29%;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center;
+}
+
+pre {
+    font-family: Poppins;
+    left: 50%;
+    color: #4D2D52;
+    border-radius: 20px;
+    left: 50%;
+
+}
+
+strong {
+    font-size: 18pt; 
+    font-weight: 400;
+    text-decoration: underline;
+    text-decoration-style:dashed;
+
+}
