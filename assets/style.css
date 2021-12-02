@@ -96,7 +96,7 @@ a:link, a:visited, a:hover, a:active {
     100% { font-size: 20pt; font-weight: 400; text-decoration: underline; }
 }
 
-.menu-options div:hover {
+#menu-options-each:hover {
     animation-name: hover;
     animation-duration: 0.15s;
     animation-delay: 0;
